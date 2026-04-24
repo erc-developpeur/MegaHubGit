@@ -1,0 +1,23 @@
+{
+  "name": "megahubgit-backend",
+  "version": "1.0.0",
+  "description": "MegaHubGit - Local Git Dashboard Backend",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.1.1",
+    "axios": "^1.6.8",
+    "conf": "^12.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^2.1.1",
+    "simple-git": "^3.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

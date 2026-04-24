@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Local configuration & Secrets
+config.json
+.env
+*.local
+
+# Build outputs
+frontend/dist/
+backend/dist/
+build/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
